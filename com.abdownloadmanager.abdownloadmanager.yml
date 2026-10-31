@@ -1,6 +1,6 @@
 app-id: com.abdownloadmanager.abdownloadmanager
 runtime: org.freedesktop.Platform
-runtime-version: "26.08"
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk25
@@ -35,8 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/amir1376/ab-download-manager.git
-        tag: v1.11.1
-        commit: 08bfd440a30d367ae369739d866d30f8c1d4b3af
+        tag: v1.11.2
+        commit: 14a947bf112c71a32d2f0d0089dcf928493feda8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
