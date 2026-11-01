@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.abdownloadmanager.abdownloadmanager</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Apache-2.0</project_license>
 
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 
   <developer_name>Amir Hossein Abdolmotallebi</developer_name>
 
@@ -43,7 +43,7 @@
   <url type="bugtracker">https://github.com/amir1376/ab-download-manager/issues</url>
   <url type="donation">https://github.com/amir1376/ab-download-manager/blob/master/DONATE.md</url>
   <url type="translate">https://crowdin.com/project/ab-download-manager</url>
-  <url type="contribute" >https://github.com/amir1376/ab-download-manager/blob/master/CONTRIBUTING.md</url>
+  <url type="contribute">https://github.com/amir1376/ab-download-manager/blob/master/CONTRIBUTING.md</url>
 
   <categories>
     <category>Utility</category>
@@ -75,6 +75,9 @@
   </supports>
 
   <releases>
-    <release version="1.11.1" date="2026-10-14" />
+    <release version="1.11.2" date="2026-10-31">
+      <description></description>
+    </release>
+    <release version="1.11.1" date="2026-10-14"/>
   </releases>
 </component>

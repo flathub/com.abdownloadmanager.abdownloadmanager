@@ -1,0 +1,33 @@
+name: jbrsdk
+buildsystem: simple
+cleanup:
+  - '*'
+build-commands:
+  - mkdir -p /app/lib/jbrsdk
+  - tar xzf jbrsdk_jcef-*.tar.gz -C /app/lib/jbrsdk --strip-components=1
+sources:
+  - type: file
+    url: https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.79.tar.gz
+    sha512: bd828d009f11c14fe85fbe2ad74169a21692f3e0bdb2124c74f0a9f98b5d16e878fa806974a62186e52096a3c7ea1556eabd9481fe8f2ad384b7cb980357be5e
+    only-arches:
+      - x86_64
+    x-checker-data:
+      <<: &jbrsdk-checker
+        type: json
+        url: https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases
+        tag-query: '[.[] | select(.prerelease | not) | select(.tag_name | test("^jbr-release-25[.][0-9.]+b[0-9.]+$"))]
+          | max_by(.tag_name | capture("^jbr-release-(?<v>[0-9.]+)b(?<b>[0-9.]+)$")
+          | [(.v, .b) | split(".") | map(tonumber)]) | .tag_name'
+        timestamp-query: .[] | select(.tag_name == $tag) | .published_at
+        version-query: $tag | sub("^jbr-release-"; "")
+        url-query: |-
+          .[] | select(.tag_name == $tag) | .body | [scan("https://cache-redirector[.]jetbrains[.]com/intellij-jbr/jbrsdk_jcef-[0-9.]+-linux-x64-b[0-9.]+[.]tar[.]gz")] | first
+  - type: file
+    url: https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz
+    sha512: ec50db6dad63d210b83df7eecd35177eabfc0a07b264e1921ba3f01c6e396c2acf0c926bbd6bcedd820f24bf1ec6c4b345297cd32040b9fa25d39c4aa6d7b857
+    only-arches:
+      - aarch64
+    x-checker-data:
+      <<: *jbrsdk-checker
+      url-query: |-
+        .[] | select(.tag_name == $tag) | .body | [scan("https://cache-redirector[.]jetbrains[.]com/intellij-jbr/jbrsdk_jcef-[0-9.]+-linux-aarch64-b[0-9.]+[.]tar[.]gz")] | first
