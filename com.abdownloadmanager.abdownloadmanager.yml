@@ -18,8 +18,8 @@ modules:
   - jbrsdk.yml
   - name: abdm
     buildsystem: simple
-    append-path: /app/lib/jbrsdk/bin
     build-options:
+      append-path: /app/lib/jbrsdk/bin
       strip: true
       env:
         JAVA_HOME: /app/lib/jbrsdk
