@@ -1922,35 +1922,55 @@
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.module",
     "sha256": "6ca128b5b70b699effb599ef43255baa599dea0b7fcef88e89c87a8f4a7ca951",
     "dest": "gradle/co/touchlab/kermit-android/2.2.0",
-    "dest-filename": "kermit-android-2.2.0.module"
+    "dest-filename": "kermit-android-2.2.0.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.module"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.pom",
     "sha256": "347cdcd365a808b7ea86ace9e1900818e6d16d29c083238a84e55fcf9e807474",
     "dest": "gradle/co/touchlab/kermit-android/2.2.0",
-    "dest-filename": "kermit-android-2.2.0.pom"
+    "dest-filename": "kermit-android-2.2.0.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-android/2.2.0/kermit-android-2.2.0.pom"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.module",
     "sha256": "7a2ee0c361453ea1b2ec73fee72e8c9f4b043855711838a29849e9a75ed18e7d",
     "dest": "gradle/co/touchlab/kermit-core-android/2.2.0",
-    "dest-filename": "kermit-core-android-2.2.0.module"
+    "dest-filename": "kermit-core-android-2.2.0.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.module"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.pom",
     "sha256": "67c36862b20821a7d974f5a0efa6f0d53a4cd8889574b3a803605a9ddd6e1135",
     "dest": "gradle/co/touchlab/kermit-core-android/2.2.0",
-    "dest-filename": "kermit-core-android-2.2.0.pom"
+    "dest-filename": "kermit-core-android-2.2.0.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-core-android/2.2.0/kermit-core-android-2.2.0.pom"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-core-jvm/2.2.0/kermit-core-jvm-2.2.0.jar",
     "sha256": "98afb36d37d4523bf1cfec6d0d514b15365782fe17565263e6776b19e4d87979",
     "dest": "gradle/co/touchlab/kermit-core-jvm/2.2.0",
-    "dest-filename": "kermit-core-jvm-2.2.0.jar"
+    "dest-filename": "kermit-core-jvm-2.2.0.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-core-jvm/2.2.0/kermit-core-jvm-2.2.0.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-core-jvm/2.2.0/kermit-core-jvm-2.2.0.jar"
+    ]
   },
   {
     "type": "file",
@@ -2001,7 +2021,11 @@
     "url": "https://repo.maven.apache.org/maven2/co/touchlab/kermit-jvm/2.2.0/kermit-jvm-2.2.0.jar",
     "sha256": "cad6ea788643721b9eca5ca77d9e683e920eec4007dc07bd521ef1f5f05487c6",
     "dest": "gradle/co/touchlab/kermit-jvm/2.2.0",
-    "dest-filename": "kermit-jvm-2.2.0.jar"
+    "dest-filename": "kermit-jvm-2.2.0.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/co/touchlab/kermit-jvm/2.2.0/kermit-jvm-2.2.0.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/co/touchlab/kermit-jvm/2.2.0/kermit-jvm-2.2.0.jar"
+    ]
   },
   {
     "type": "file",
@@ -3816,7 +3840,11 @@
     "url": "https://repo.maven.apache.org/maven2/com/github/hypfvieh/dbus-java-core/5.2.0/dbus-java-core-5.2.0.jar",
     "sha256": "9dfadd65bdfec2154ccf23039f9ae6239dc625735b933653d9403e11c2c9cf10",
     "dest": "gradle/com/github/hypfvieh/dbus-java-core/5.2.0",
-    "dest-filename": "dbus-java-core-5.2.0.jar"
+    "dest-filename": "dbus-java-core-5.2.0.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/com/github/hypfvieh/dbus-java-core/5.2.0/dbus-java-core-5.2.0.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/com/github/hypfvieh/dbus-java-core/5.2.0/dbus-java-core-5.2.0.jar"
+    ]
   },
   {
     "type": "file",
@@ -5114,7 +5142,11 @@
     "url": "https://repo.maven.apache.org/maven2/com/typesafe/config/1.4.9/config-1.4.9.jar",
     "sha256": "47d13e3196c84f2a8ccd014ae563738c3da5b7406b38e03505ec0601a2f4fc37",
     "dest": "gradle/com/typesafe/config/1.4.9",
-    "dest-filename": "config-1.4.9.jar"
+    "dest-filename": "config-1.4.9.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/com/typesafe/config/1.4.9/config-1.4.9.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/com/typesafe/config/1.4.9/config-1.4.9.jar"
+    ]
   },
   {
     "type": "file",
@@ -5801,6 +5833,266 @@
     "mirror-urls": [
       "https://repo1.maven.org/maven2/io/arrow-kt/arrow-optics/2.2.3/arrow-optics-2.2.3.pom",
       "https://maven-central.storage-download.googleapis.com/maven2/io/arrow-kt/arrow-optics/2.2.3/arrow-optics-2.2.3.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-android/1.3.1/qrose-android-1.3.1.module",
+    "sha256": "a60992f16346641dd90c7fd2acb3421786c4b481375270fb0d04183bcde4bba3",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-android/1.3.1",
+    "dest-filename": "qrose-android-1.3.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-android/1.3.1/qrose-android-1.3.1.pom",
+    "sha256": "e5d3fddbcd2f98f5ecbba6bad02a65a612cf13624a9b1d3103438f9e80129631",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-android/1.3.1",
+    "dest-filename": "qrose-android-1.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core-android/1.3.1/qrose-core-android-1.3.1.module",
+    "sha256": "db961f182fb1b9ec294bf7cdce13c54bb3254c73c9d771a8325d4a9385145c07",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core-android/1.3.1",
+    "dest-filename": "qrose-core-android-1.3.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core-android/1.3.1/qrose-core-android-1.3.1.pom",
+    "sha256": "1c5283f08e8ef716148c876df1586aec4001c8c0a58565de49d8697c7adee1e4",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core-android/1.3.1",
+    "dest-filename": "qrose-core-android-1.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.jar",
+    "sha256": "e407024af842b39cded5b3f7fb3ab0ca0576669bdf75e2d0236a8f4c8f9e41ee",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core-desktop/1.3.1",
+    "dest-filename": "qrose-core-desktop-1.3.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.module",
+    "sha256": "3078c34e3be52571cf60f2de79ac796b603a78d2e228f93d1cedbcc4e52e9377",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core-desktop/1.3.1",
+    "dest-filename": "qrose-core-desktop-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.pom",
+    "sha256": "3920e79159b7aef6570a925f16dad9cb2866f3eeefb4af40bf67b27f52669f2e",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core-desktop/1.3.1",
+    "dest-filename": "qrose-core-desktop-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-core-desktop/1.3.1/qrose-core-desktop-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.module",
+    "sha256": "134c374f5630e9f5fbf8b5ae8a0f59e7fbe39831c5026cf57d8f12ef675f9eea",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core/1.3.1",
+    "dest-filename": "qrose-core-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.pom",
+    "sha256": "49627c03007ec1cec2b7bfe32911fbcaa3555651443da55721cc5f998fe15b7e",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-core/1.3.1",
+    "dest-filename": "qrose-core-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-core/1.3.1/qrose-core-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.jar",
+    "sha256": "24ee172aa7579151387045b6bde9be56d625d1fd282ff00e8c4b55c487152dee",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-desktop/1.3.1",
+    "dest-filename": "qrose-desktop-1.3.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.module",
+    "sha256": "933f22f526a7b9e194343a0746a74a5fded32f0a97f61546ad5006c4b1dd0d3e",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-desktop/1.3.1",
+    "dest-filename": "qrose-desktop-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.pom",
+    "sha256": "72bdc0d6495a28d498519d461ba973f86f57487b7f9b87e3886c47e2f6d79704",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-desktop/1.3.1",
+    "dest-filename": "qrose-desktop-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-desktop/1.3.1/qrose-desktop-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-android/1.3.1/qrose-encoder-core-android-1.3.1.module",
+    "sha256": "b9a6cf4152cf598f0b9d35adc8598f24ef65298b678c3e4420130d739f7f893b",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core-android/1.3.1",
+    "dest-filename": "qrose-encoder-core-android-1.3.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-android/1.3.1/qrose-encoder-core-android-1.3.1.pom",
+    "sha256": "c76ca484d96b1665c3cac0bb4c7e87f1f833c9b55f64e86db8e8e4714950cda8",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core-android/1.3.1",
+    "dest-filename": "qrose-encoder-core-android-1.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.jar",
+    "sha256": "27b0c25b7387175dfe3cf1f587b5e2c00a6639ec111f6fbfcfcaf8d34b683767",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-core-desktop-1.3.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.module",
+    "sha256": "cd42f7a278a6ec2a44296da45af9cb4c8f8f1628cf0868cd14a082c417d18abb",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-core-desktop-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.pom",
+    "sha256": "0f42a3ae910c4130a55f772235637a27b1243cc9f0e76ecb5e04f4431807650c",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-core-desktop-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-core-desktop/1.3.1/qrose-encoder-core-desktop-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.module",
+    "sha256": "0cfcb8105a16b27eede6f577c69ad9044d9222e85a2c54c6336cc32f269a21bf",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core/1.3.1",
+    "dest-filename": "qrose-encoder-core-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.pom",
+    "sha256": "15f5dbab71f0de638755c28a4ac09be31412cf97b41e154f04f52391ae2e08a2",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-core/1.3.1",
+    "dest-filename": "qrose-encoder-core-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-core/1.3.1/qrose-encoder-core-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-android/1.3.1/qrose-encoder-matrix-android-1.3.1.module",
+    "sha256": "d8e2246a5dbce733992fdf457b9dfddbbab66c95ea253fff8204841ec7502305",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix-android/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-android-1.3.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-android/1.3.1/qrose-encoder-matrix-android-1.3.1.pom",
+    "sha256": "2266baff12fb8151996c78ecc0cc85e194decc2aaae28ffe578f17a562f187a8",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix-android/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-android-1.3.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.jar",
+    "sha256": "bc3190ee3f6f3109ed4a7f93b94995919a57d008d0f111f67e8724e2f3a3cf40",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-desktop-1.3.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.module",
+    "sha256": "18ae42a8763f527a36abf48e5079acd98aceb149da50cc8224bd2dd2d57bb5c8",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-desktop-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.pom",
+    "sha256": "ba09a4106d16915b84f93ed7cd9fe5145eb060526f68fd6c19dc06f02c2ef4f6",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-desktop-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-matrix-desktop/1.3.1/qrose-encoder-matrix-desktop-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.module",
+    "sha256": "4785e649c1fff639fb397521150c96f7443de7911200b3c672d19eb82deda443",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.pom",
+    "sha256": "a71daf85e0c72555ae3463da85073e968a4ded9f09d9bd811088da92fecf0d89",
+    "dest": "gradle/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1",
+    "dest-filename": "qrose-encoder-matrix-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose-encoder-matrix/1.3.1/qrose-encoder-matrix-1.3.1.pom"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.module",
+    "sha256": "dbe417eff6ba29a1dc035bbd6a25b02b9533626b33da8659c9fbe89a1875f087",
+    "dest": "gradle/io/github/alexzhirkevich/qrose/1.3.1",
+    "dest-filename": "qrose-1.3.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.module"
+    ]
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.pom",
+    "sha256": "e46df2ed23d1981345c09acac2f661e7251eb016f01df40f7455badd48a01829",
+    "dest": "gradle/io/github/alexzhirkevich/qrose/1.3.1",
+    "dest-filename": "qrose-1.3.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/io/github/alexzhirkevich/qrose/1.3.1/qrose-1.3.1.pom"
     ]
   },
   {
@@ -8467,28 +8759,44 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.module",
     "sha256": "4c6365bbeea681f02f5eef33ba47fc642cb17b38c531034fef699f171e7dbe66",
     "dest": "gradle/org/jetbrains/compose/animation/animation-android/1.12.1",
-    "dest-filename": "animation-android-1.12.1.module"
+    "dest-filename": "animation-android-1.12.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.module"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.pom",
     "sha256": "286d9923d8cc37ba0ba1c5a1a616a5e36fc108ace1f5a30f0451c87e4e1e8cc1",
     "dest": "gradle/org/jetbrains/compose/animation/animation-android/1.12.1",
-    "dest-filename": "animation-android-1.12.1.pom"
+    "dest-filename": "animation-android-1.12.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/compose/animation/animation-android/1.12.1/animation-android-1.12.1.pom"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.module",
     "sha256": "536656760268fdf790e97a5aba64a8edc14fb21f351e71ce6d9b29904eb9e756",
     "dest": "gradle/org/jetbrains/compose/animation/animation-core-android/1.12.1",
-    "dest-filename": "animation-core-android-1.12.1.module"
+    "dest-filename": "animation-core-android-1.12.1.module",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.module",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.module"
+    ]
   },
   {
     "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.pom",
     "sha256": "daf6c91e053f3dde9692bd143208552b2ef60fb3072fa6abb0e302a26250fed7",
     "dest": "gradle/org/jetbrains/compose/animation/animation-core-android/1.12.1",
-    "dest-filename": "animation-core-android-1.12.1.pom"
+    "dest-filename": "animation-core-android-1.12.1.pom",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.pom",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/compose/animation/animation-core-android/1.12.1/animation-core-android-1.12.1.pom"
+    ]
   },
   {
     "type": "file",
@@ -8837,7 +9145,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/compose/gradle-plugin-internal-jdk-version-probe/1.10.0/gradle-plugin-internal-jdk-version-probe-1.10.0.jar",
     "sha256": "c49a31d7a014945d41cda63cce97dbbdb9fe14e3d271a4ca7da96684a9620d36",
     "dest": "gradle/org/jetbrains/compose/gradle-plugin-internal-jdk-version-probe/1.10.0",
-    "dest-filename": "gradle-plugin-internal-jdk-version-probe-1.10.0.jar"
+    "dest-filename": "gradle-plugin-internal-jdk-version-probe-1.10.0.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/compose/gradle-plugin-internal-jdk-version-probe/1.10.0/gradle-plugin-internal-jdk-version-probe-1.10.0.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/compose/gradle-plugin-internal-jdk-version-probe/1.10.0/gradle-plugin-internal-jdk-version-probe-1.10.0.jar"
+    ]
   },
   {
     "type": "file",
@@ -10635,7 +10947,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.4.20/kotlin-scripting-common-2.4.20.jar",
     "sha256": "3385f7f05984a6488809b015727eca9aeba7998dc5995d87b4ae5dc9c8d4124b",
     "dest": "gradle/org/jetbrains/kotlin/kotlin-scripting-common/2.4.20",
-    "dest-filename": "kotlin-scripting-common-2.4.20.jar"
+    "dest-filename": "kotlin-scripting-common-2.4.20.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.4.20/kotlin-scripting-common-2.4.20.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.4.20/kotlin-scripting-common-2.4.20.jar"
+    ]
   },
   {
     "type": "file",
@@ -10671,7 +10987,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.4.20/kotlin-scripting-compiler-embeddable-2.4.20.jar",
     "sha256": "6eb8ce1d73b89107804b3bdf295791f52c0394cbe18bcdfb90103aee955ea1c5",
     "dest": "gradle/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.4.20",
-    "dest-filename": "kotlin-scripting-compiler-embeddable-2.4.20.jar"
+    "dest-filename": "kotlin-scripting-compiler-embeddable-2.4.20.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.4.20/kotlin-scripting-compiler-embeddable-2.4.20.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.4.20/kotlin-scripting-compiler-embeddable-2.4.20.jar"
+    ]
   },
   {
     "type": "file",
@@ -10707,7 +11027,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20/kotlin-scripting-compiler-impl-embeddable-2.4.20.jar",
     "sha256": "d895b182c4c7bdbd688efb360a897f2182774d91e6c57a7acbeb2dc8f13f5ff2",
     "dest": "gradle/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20",
-    "dest-filename": "kotlin-scripting-compiler-impl-embeddable-2.4.20.jar"
+    "dest-filename": "kotlin-scripting-compiler-impl-embeddable-2.4.20.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20/kotlin-scripting-compiler-impl-embeddable-2.4.20.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20/kotlin-scripting-compiler-impl-embeddable-2.4.20.jar"
+    ]
   },
   {
     "type": "file",
@@ -10743,7 +11067,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.4.20/kotlin-scripting-jvm-2.4.20.jar",
     "sha256": "2be43e56bdaf38db30f87347ad4f42e9cd69ca8433e579780143791933b01fac",
     "dest": "gradle/org/jetbrains/kotlin/kotlin-scripting-jvm/2.4.20",
-    "dest-filename": "kotlin-scripting-jvm-2.4.20.jar"
+    "dest-filename": "kotlin-scripting-jvm-2.4.20.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.4.20/kotlin-scripting-jvm-2.4.20.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.4.20/kotlin-scripting-jvm-2.4.20.jar"
+    ]
   },
   {
     "type": "file",
@@ -10761,7 +11089,11 @@
     "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.4.20/kotlin-serialization-compiler-plugin-embeddable-2.4.20.jar",
     "sha256": "2221ec78c4f8d7367df9a9bd4310c916c5ef70150fb49eeacf238f074f368b52",
     "dest": "gradle/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.4.20",
-    "dest-filename": "kotlin-serialization-compiler-plugin-embeddable-2.4.20.jar"
+    "dest-filename": "kotlin-serialization-compiler-plugin-embeddable-2.4.20.jar",
+    "mirror-urls": [
+      "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.4.20/kotlin-serialization-compiler-plugin-embeddable-2.4.20.jar",
+      "https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-serialization-compiler-plugin-embeddable/2.4.20/kotlin-serialization-compiler-plugin-embeddable-2.4.20.jar"
+    ]
   },
   {
     "type": "file",
