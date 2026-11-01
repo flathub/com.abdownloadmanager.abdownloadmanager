@@ -47,7 +47,7 @@ cd "$WORKDIR/abdm"
 ./gradlew --no-daemon --init-script "$WORKDIR/capture.gradle" --no-build-cache --no-configuration-cache \
     --console=plain createReleaseDistributable :captureFlatpakSources
 
-GRADLE_URL="$(sed -n 's/\\//g; s/^distributionUrl=//p' gradle/wrapper/gradle-wrapper.properties)" \
+export GRADLE_URL="$(sed -n 's/\\//g; s/^distributionUrl=//p' gradle/wrapper/gradle-wrapper.properties)"
 python3 - build/flatpak-sources.json "$OUT" <<'EOF'
 import concurrent.futures, functools, glob, hashlib, json, os, sys, urllib.parse, urllib.request
 
