@@ -25,7 +25,8 @@ modules:
         JAVA_HOME: /app/lib/jbrsdk
     build-commands:
       - sed -i s/distributionUrl.*/distributionUrl=gradle-bin.zip/ gradle/wrapper/gradle-wrapper.properties
-      - ./gradlew --offline --no-daemon --console=plain --init-script offline.gradle createReleaseDistributable
+      - ./gradlew --offline --no-daemon --console=plain --init-script offline.gradle
+        createReleaseDistributable
       - mv desktop/app/build/compose/binaries/main-release/app/ABDownloadManager ${FLATPAK_DEST}/ab-download-manager
       - install -Dm755 ${FLATPAK_ID}.sh ${FLATPAK_DEST}/bin/${FLATPAK_ID}
       - install -Dm644 desktop/app/icons/icon.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
@@ -34,8 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/amir1376/ab-download-manager.git
-        tag: v1.11.2
-        commit: 14a947bf112c71a32d2f0d0089dcf928493feda8
+        tag: v1.11.4
+        commit: b1d067c9b3c2f069c3b75fae631da9bd1793191e
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
